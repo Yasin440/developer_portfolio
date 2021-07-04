@@ -44,6 +44,7 @@ h1{
     background-repeat: no-repeat;
     background-position-y: bottom;
     background-position-x: right;
+    margin-bottom: 150px;
 }
 .dreamImg{
     width: 44%;
@@ -62,6 +63,7 @@ h1{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    margin-bottom: 100px;
 }
 .halfWidth{
     width: 80%;
@@ -83,4 +85,9 @@ h2{
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
+}
+footer p{
+    color: gray;
+    text-align: center;
+
 }
