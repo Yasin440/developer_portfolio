@@ -1,3 +1,35 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.welcomePart{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.devInfo{
+    width: 50%;
+    padding-right: 10%;
+}
+.devInfo button{
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 12px 38px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    
+}
+.devImg{
+    width: 40%;
+}
+.devImg img{
+    width:100%;
+}
+h1{
+    font-size: 50px;
+}
+.developerName{
+    color: orange;
+}
