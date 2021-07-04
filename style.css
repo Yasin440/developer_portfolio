@@ -7,13 +7,14 @@ body{
     margin: auto;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 150px;
 }
-.devInfo{
+.divInfo{
     width: 50%;
     padding-right: 10%;
     padding-left: 7%;
 }
-.devInfo button{
+.link_button{
     text-transform: uppercase;
     font-weight: 800;
     color: white;
@@ -22,13 +23,12 @@ body{
     border-radius: 5px;
     text-decoration: none;
     border: none;
-    
 }
-.devImg{
+.divImg{
     width: 40%;
     padding-right: 7%;
 }
-.devImg img{
+.divImg img{
     width:100%;
 }
 h1{
@@ -36,4 +36,22 @@ h1{
 }
 .developerName{
     color: orange;
+}
+.dreamBig{
+    display: flex;
+    margin: auto;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+.dreamImg{
+    width: 44%;
+    padding-left: 7%;
+}
+.dreamImg img{
+    width: 100%;
+}
+.divInfo p{
+    margin-bottom: 30px !important;
 }
